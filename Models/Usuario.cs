@@ -46,7 +46,7 @@ namespace Troca.Models
         public string NomeRua {get;set;}
 
         [Required(ErrorMessage = "Campo Obrigatório")]
-        public int NumeroCasa {get;set;}
+        public int? NumeroCasa {get;set;}
 
 
         public bool SenhaValida(string senha)
