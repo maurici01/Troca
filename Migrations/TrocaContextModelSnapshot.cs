@@ -16,6 +16,25 @@ namespace Troca.Migrations
                 .HasAnnotation("ProductVersion", "3.1.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("Troca.Models.Feedback", b =>
+                {
+                    b.Property<int>("ReclamacaoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Chat")
+                        .IsRequired()
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.HasKey("ReclamacaoId");
+
+                    b.ToTable("Feedback");
+                });
+
             modelBuilder.Entity("Troca.Models.Usuario", b =>
                 {
                     b.Property<int>("UsuarioId")

@@ -69,3 +69,52 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+  .p{
+    
+    margin: 0%;
+    margin-right: 70%;
+  }
+
+  .cadastre{
+   
+    
+    margin-left: 10px;
+
+  }
+  .li3{
+   
+   
+    margin-left: 20px;
+
+  }
+
+.h{
+  margin: 0%;
+  margin-right: 65%;
+
+
+}
+.li4{
+  margin-left: 10px;
+
+}
+.li5{
+  margin-left: 20px;
+}
+.sair{
+  margin-left: 40px;
+
+}
+.c{
+  text-align: center;
+}
+
+.fundo{
+ 
+  margin: 0%;
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-position: center;
+  
+  
+}

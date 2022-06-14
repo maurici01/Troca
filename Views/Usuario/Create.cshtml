@@ -1,12 +1,14 @@
 @model Troca.Models.Usuario
 
 @{
+
+   Layout="_layoutD" ;
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
 
-<h4>Usuario</h4>
+
+<h4>Cadastro de pessoa fisica</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -73,13 +75,12 @@
                 <span asp-validation-for="NumeroCasa" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Criar" class="btn btn-success" />
+                <input  style="background-color:#070743" type="submit" value="Voltar" asp-action="Principal" asp-controller="Home" class="btn btn-success" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 

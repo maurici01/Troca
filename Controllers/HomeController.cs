@@ -33,5 +33,13 @@ namespace Troca.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+         public IActionResult Principal()
+        {
+            return View();
+        }
+         public IActionResult Contato()
+        {
+            return View();
+        }
     }
 }
